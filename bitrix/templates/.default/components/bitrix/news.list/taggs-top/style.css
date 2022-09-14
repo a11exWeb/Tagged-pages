@@ -1,0 +1,27 @@
+.taggs__list
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.taggs__item {
+	margin-right: 15px;
+}
+
+.taggs__link {
+	display: block;
+	background: #E4ECF9;
+    padding: 5px 10px;
+    color: #336EC6;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 5px;
+	text-decoration: none;
+}
+
+.taggs__link:hover{
+	background: #336EC6;
+	transition: all .3s ease-in;
+	color: #ffffff;
+}
